@@ -32,8 +32,8 @@ def affine_decrypt(ciphertext, a, b):
     return plaintext
 
 # Antarmuka pengguna dengan Streamlit
-st.title("Affine Cipher Encryptor and Decryptor")
-st.write("Encrypt and decrypt text using the Affine Cipher.")
+st.title("Cipher Encryptor and Decryptor")
+st.write("Encrypt and decrypt text using the Cipher.")
 
 # Input pengguna untuk teks dan kunci
 plaintext = st.text_area("Enter Text to Encrypt/Decrypt:")
